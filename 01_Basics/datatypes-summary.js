@@ -30,4 +30,29 @@ const myfunction = function() {
     console.log("Hello World")
 }
 
-console.log(typeof heros)
+console.log(typeof anotherId)
+
+
+// ***********************************************************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "HelloWorld"
+
+let anothername = myName
+anothername = "Welcome to my world"
+
+console.log(myName)
+console.log(anothername)
+
+let userOne = {
+    email: "User@google.com",
+    upi: "user@byl"
+}
+
+let usertwo = userOne
+
+usertwo.email = "User@google.com"
+
+console.log(userOne.email)
+console.log(usertwo.email)
